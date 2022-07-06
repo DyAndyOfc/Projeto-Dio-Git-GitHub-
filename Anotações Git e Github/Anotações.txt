@@ -1,0 +1,156 @@
+# Desafio-Git-Github-Dio
+
+Primeiro nivel de aprendizado
+
+o que é Git/GitHub
+
+Um Sistema de Controle de Versão (VCM) permite manter versões de arquivos, reverter para versões anteriores, monitorar quem fez alterações e gerenciar o desenvolvimento de um sistema por uma equipes, as vezes compostas por dezenas de pessoas.
+
+O Git é o mais popular Sistema de Controle de Versão do mundo, inicialmente projetado e desenvolvido por Linus Torvalds, criador do Linux, para desenvolvimento do kernel deste, mas acabou sendo adotado no mundo todo. Além disso, o Git é um software livre, distribuído sob os termos da versão 2 da GNU General Public License
+
+Já o Github é um popular repositório remoto, que contém milhões de projetos, muitos deles públicos. Neste curso você vai aprender os principais fundamentos de Git e Github.
+
+Entre outras coisas, neste curso você será capaz de:
+
+Criar repositórios, que são locais onde o Git faz o controle do código
+
+Criar branchs, que são ramificações do código original, usadas por exemplo, para implementar uma nova funcionalidade
+
+Fazer Merge, que é o processo de juntar o código de duas branchs, tendo uma única versão final
+
+Entender os conceitos de commit e stage, essenciais para a "saúde' do código
+
+Criar Forks, que são cópias independentes de um repositório, que podem, por exemplo, originar um novo projeto.
+
+Criar Clones, que são cópias dos projetos de forma que você pode contribuir para o projeto
+
+Crie Labels e Releases
+
+Simular um ambiente real, com mais de um usuários trabalhando no mesmo projeto
+
+O curso traz tutoriais com fundamentos, mas é acima de tudo um curso prático, onde você vai aprender fazendo!
+
+## o que eu aprendi?
+
+que GitHub é uma Amazernagem.
+
+1 contro de versões.
+
+2 Amazemagem.
+
+3 Trabalho em equipe.
+
+4 Ajuda a melhorar o código.
+
+5 recolhecimento.
+
+# Comandos aprendindos
+
+* **git config**
+
+Um dos comandos git mais usados ​​é o **git config** que pode ser usado para definir valores de configuração específicos do usuário como e-mail, algoritmo preferido para diff, nome de usuário e formato de arquivo etc. Por exemplo, o seguinte comando pode ser usado para definir o email:
+
+Ex:
+
+git config --global user.email sam@google.com
+
+* **git init**
+
+Este comando é usado para criar um novo repositório GIT. Uso:
+
+git init
+
+* **git commit**
+
+O comando **git commit** é usado para confirmar as alterações na cabeça. Tenha em atenção que quaisquer alterações efetuadas não irão para o repositório remoto. Uso:
+
+git commit –m “coloque sua mensagem aqui”
+
+* **git status**
+
+O comando **git status** exibe a lista de arquivos alterados juntamente com os arquivos que ainda não foram adicionados ou confirmados. Uso:
+
+git status
+
+**
+
+Antes de começar este guia, você precisará do seguinte:
+
+* GIT instalado no seu sistema
+  
+* **git config**
+  
+
+Um dos comandos git mais usados ​​é o **git config** que pode ser usado para definir valores de configuração específicos do usuário como e-mail, algoritmo preferido para diff, nome de usuário e formato de arquivo etc. Por exemplo, o seguinte comando pode ser usado para definir o email:
+
+git config --global user.email sam@google.com
+
+* **git init**
+
+Este comando é usado para criar um novo repositório GIT. Uso:
+
+git init
+
+* **git add**
+
+O comando **git add** pode ser usado para adicionar arquivos ao índice. Por exemplo, o seguinte comando irá adicionar um arquivo chamado temp.txt presente no diretório local para o índice:
+
+git add temp.txt
+
+* **git clone**
+
+O comando **git clone** é usado para fins de verificação de repositório. Se o repositório estiver em um servidor remoto, use:
+
+git clone alex@93.188.160.58:/path/to/repository
+
+Por outro lado, se uma cópia de trabalho de um repositório local for criada, use:
+
+git clone /path/to/repository
+
+* **git commit**
+
+O comando **git commit** é usado para confirmar as alterações na cabeça. Tenha em atenção que quaisquer alterações efetuadas não irão para o repositório remoto. Uso:
+
+git commit –m “coloque sua mensagem aqui”
+
+* **git status**
+
+O comando **git status** exibe a lista de arquivos alterados juntamente com os arquivos que ainda não foram adicionados ou confirmados. Uso:
+
+git status
+
+**git push** é outro dos comandos git básicos mais usados. Um simples envio envia as alterações feitas para o ramo mestre do repositório remoto associado ao diretório de trabalho. Por exemplo:
+
+git push origin master
+
+* **git checkout**
+
+O comando **git checkout** pode ser usado para criar ramos ou alternar entre eles. Por exemplo, o seguinte cria um novo ramo e muda para ele:
+
+command git checkout -b <branch-name>
+
+* * *
+
+## Apagar um repositorio
+
+Há momentos que não queremos apagar nossos arquivosHá momentos em que não queremos apagar nossos arquivos, mas queremos remover as informações sobre aquele repositório criado com o `$ git init` (talvez criar um repositório novo com os mesmos arquivos). Para isso não usamos o Git. Lembre-se que um repositório Git armazena as informações dentro de uma pasta oculta chamada `/.git`. Então basta apagar esta pasta oculta que o seu atual diretório deixará de ser um repositório.
+
+$ rm -rf .git
+
+Listando Arquivos Modificados
+
+Esse comando indica o estado do seu repositório. Em outras palavras, ele vai listar todos os arquivos que foram modificados desde o seu último `commit`.
+
+$ git status
+
+Se o arquivo foi modificado mas você ainda não executou `git add`, um simples `git checkout` removerá as alterações, deixando o arquivo como ele estava no último `commit`. Passe o nome do arquivo a ter as alterações desfeitas ou `.` para desfazer as alterações em todos os arquivos modificados. Muito útil se você está apenas experimentando um código mas não quer que ele seja salvo.
+
+# Anotações basicas
+
+algumas forma de navegar pelo git bush
+
+cd > navegar entre pastas, por exemplo cd/windows
+
+ctrl > limpando o terminal
+
+tab - completa a palavra que quer entra..
